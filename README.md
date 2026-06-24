@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ### 3. Chạy ứng dụng
 
 ```bash
+Run_Tool.batch
 streamlit run app.py
 ```
 
