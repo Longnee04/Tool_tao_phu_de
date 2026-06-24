@@ -1,0 +1,44 @@
+╔══════════════════════════════════════════════════════════════╗
+║          HƯỚNG DẪN CÀI FFMPEG PORTABLE                      ║
+╚══════════════════════════════════════════════════════════════╝
+
+Thư mục "bin" này dùng để chứa FFmpeg portable.
+Bạn chỉ cần bỏ 2 file vào đây là tool sẽ tự động sử dụng:
+
+  ✅ ffmpeg.exe
+  ✅ ffprobe.exe
+
+═══════════════════════════════════════════════════════════════
+📥 CÁCH TẢI FFMPEG PORTABLE (BẢN NHẸ NHẤT):
+═══════════════════════════════════════════════════════════════
+
+🔹 CÁCH 1 - Bản Essentials (khuyến nghị, ~30MB sau giải nén):
+
+   1. Truy cập: https://www.gyan.dev/ffmpeg/builds/
+   2. Kéo xuống mục "Release builds"
+   3. Tải bản: ffmpeg-release-essentials.zip
+   4. Giải nén file ZIP
+   5. Vào thư mục: ffmpeg-x.x-essentials_build\bin\
+   6. Copy 2 file "ffmpeg.exe" và "ffprobe.exe"
+   7. Dán vào thư mục "bin" này
+
+🔹 CÁCH 2 - Tải trực tiếp từ BtbN (GitHub, bản tối giản):
+
+   1. Truy cập: https://github.com/BtbN/FFmpeg-Builds/releases
+   2. Tìm bản: ffmpeg-master-latest-win64-gpl.zip
+   3. Giải nén → vào thư mục bin\ bên trong
+   4. Copy "ffmpeg.exe" và "ffprobe.exe" vào đây
+
+═══════════════════════════════════════════════════════════════
+📁 SAU KHI HOÀN TẤT, thư mục bin sẽ như thế này:
+═══════════════════════════════════════════════════════════════
+
+   bin/
+   ├── ffmpeg.exe        ← FILE NÀY
+   ├── ffprobe.exe       ← FILE NÀY
+   └── HƯỚNG_DẪN.txt    ← File bạn đang đọc
+
+⚠️ LƯU Ý:
+   - Chỉ cần 2 file .exe, không cần bất kỳ file nào khác
+   - Không cần cài đặt hay thêm vào biến PATH
+   - Tool sẽ tự động phát hiện và sử dụng bản portable này

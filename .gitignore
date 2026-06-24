@@ -1,0 +1,26 @@
+# Môi trường ảo Python (Virtual Environment)
+venv/
+.venv/
+env/
+ENV/
+
+# Thư mục tạm và kết quả đầu ra cá nhân
+temp/
+outputs/
+
+# Thư mục cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File thực thi nặng của FFmpeg (tránh vượt giới hạn 100MB của GitHub)
+bin/ffmpeg.exe
+bin/ffprobe.exe
+
+# Nhật ký lỗi / log
+*.log
+
+# Cấu hình của các trình soạn thảo (VS Code, PyCharm,...)
+.vscode/
+.idea/
